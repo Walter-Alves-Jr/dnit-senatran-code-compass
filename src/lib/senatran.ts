@@ -35,7 +35,7 @@ function build(code: string, weights: number[], perUnit: number[]): SenatranCode
   const units: Unit[] = perUnit.map((n, u) => {
     const groups = weights.slice(i, i + n).map((t) => ({ t, axles: axlesFor(t) }));
     i += n;
-    return { type: f.split[u][0], groups };
+    return { type: f.split[u]![0]!, groups };
   });
   const pbtc = weights.reduce((a, b) => a + b, 0);
   const comprimento = aet ? 30 : fam === "C" ? 14 : fam === "CTS" ? 18.6 : 19.8;
