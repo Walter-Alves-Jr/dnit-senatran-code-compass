@@ -74,12 +74,12 @@ export function TruckDrawing({ code }: { code: SenatranCode }) {
           <Wheels x0={x0} x1={x1} groups={u.groups} allRear={semi} />
         </g>,
       );
-      x = semi ? x1 - 40 : x1 + 18;
+      x = semi && code.units[idx + 1]?.type === "semirreboque" ? x1 - 40 : x1 + 18;
     }
   });
   const width = x + 60;
   return (
-    <svg viewBox={`0 0 ${width} 160`} className="h-auto w-full" role="img" aria-label={`Desenho do veículo ${code.code}`}>
+    <svg viewBox={`0 0 ${width} 160`} className="mx-auto h-auto max-h-64 w-full" role="img" aria-label={`Desenho do veículo ${code.code}`}>
       <line x1={0} y1={Y + WR} x2={width} y2={Y + WR} className="stroke-border" strokeWidth={2} strokeDasharray="10 6" />
       {parts}
     </svg>
