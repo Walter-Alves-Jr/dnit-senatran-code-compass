@@ -1,3 +1,4 @@
+import type { ReactElement } from "react";
 import type { SenatranCode, Unit } from "@/lib/senatran";
 
 const WR = 11; // wheel radius
@@ -11,11 +12,12 @@ function unitLength(u: Unit) {
   return Math.max(base, axles * GAP + (u.groups.length - 1) * GROUP_GAP + 80);
 }
 
-function Wheels({ x0, x1, groups }: { x0: number; x1: number; groups: Unit["groups"] }) {
+function Wheels({ x0, x1, groups: all, allRear }: { x0: number; x1: number; groups: Unit["groups"]; allRear?: boolean }) {
   // first group near front, remaining packed to the rear
-  const out: JSX.Element[] = [];
-  const [first, ...rest] = groups;
-  let x = x0 + 30;
+  const out: ReactElement[] = [];
+  const first = allRear ? undefined : all[0];
+  const rest = allRear ? all : all.slice(1);
+  const x = x0 + 30;
   const draw = (g: Unit["groups"][number], start: number, key: string) => {
     for (let i = 0; i < g.axles; i++)
       out.push(
@@ -41,7 +43,7 @@ function Wheels({ x0, x1, groups }: { x0: number; x1: number; groups: Unit["grou
 
 export function TruckDrawing({ code }: { code: SenatranCode }) {
   let x = 10;
-  const parts: JSX.Element[] = [];
+  const parts: ReactElement[] = [];
   code.units.forEach((u, idx) => {
     const len = unitLength(u);
     const x0 = x;
@@ -69,7 +71,7 @@ export function TruckDrawing({ code }: { code: SenatranCode }) {
           {!semi && <line x1={x0 - 18} y1={Y - 20} x2={x0 + 10} y2={Y - 20} className="stroke-foreground" strokeWidth={3} />}
           <rect x={x0} y={Y - 84} width={len} height={68} rx={3} className="fill-card stroke-foreground" strokeWidth={2} />
           <rect x={x0} y={Y - 18} width={len} height={6} className="fill-foreground" />
-          <Wheels x0={semi ? x0 + len * 0.45 : x0} x1={x1} groups={semi ? u.groups.slice(0, 0).concat([{ axles: 0, t: 0 }], u.groups).slice(1) : u.groups} />
+          <Wheels x0={x0} x1={x1} groups={u.groups} allRear={semi} />
         </g>,
       );
       x = semi ? x1 - 40 : x1 + 18;
