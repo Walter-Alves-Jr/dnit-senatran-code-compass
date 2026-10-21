@@ -1,4 +1,5 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
+import { PORTARIA as portaria } from "@/lib/portaria";
 import { useMemo, useState } from "react";
 import { AlertTriangle } from "lucide-react";
 import data from "@/data/dexpara.json";
@@ -41,12 +42,17 @@ function Index() {
   const sap = rows.find((r) => String(r[0]) === veh && String(r[1]) === imp);
   const mapping = veh ? VEHICLE_TO_SENATRAN[Number(veh)] : undefined;
   const code = mapping ? CODES[mapping.code] : undefined;
+  const official = code ? portaria.find((p) => p.code === code.code) : undefined;
 
   return (
     <div className="min-h-screen">
       <div className="h-3 bg-stripe" />
       <header className="bg-secondary text-secondary-foreground">
         <div className="mx-auto max-w-6xl px-6 py-10">
+          <nav className="mb-6 flex gap-4 font-display text-sm font-bold uppercase tracking-wider">
+            <Link to="/" className="text-primary">De-para</Link>
+            <Link to="/portaria" className="opacity-70 hover:opacity-100">Catálogo da portaria</Link>
+          </nav>
           <p className="font-display text-sm font-bold uppercase tracking-[0.3em] text-primary">Portaria SENATRAN nº 268/2022</p>
           <h1 className="mt-2 font-display text-5xl font-extrabold uppercase leading-none md:text-6xl">De-para de veículos</h1>
           <p className="mt-3 max-w-2xl text-secondary-foreground/75">
@@ -90,6 +96,12 @@ function Index() {
             {code ? (
               <>
                 <div className="border-y border-border bg-background px-6 py-8">
+                  {official && (
+                    <div className="mb-6 rounded-md border border-border bg-card p-4">
+                      <p className="mb-2 font-display text-xs font-bold uppercase tracking-wider text-muted-foreground">Imagem oficial da portaria</p>
+                      <img src={official.img} alt={`Composição ${code.code} na portaria`} className="mx-auto max-h-32 w-auto" />
+                    </div>
+                  )}
                   <TruckDrawing code={code} />
                 </div>
                 <dl className="grid grid-cols-2 divide-border md:grid-cols-4 md:divide-x">

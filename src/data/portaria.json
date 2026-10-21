@@ -1,0 +1,1498 @@
+[
+{
+"code": "C1",
+"familyKey": "C",
+"family": "Caminhão",
+"formula": "6 + 6 = 12",
+"pbtc": "12",
+"img": "C1.png"
+},
+{
+"code": "C2",
+"familyKey": "C",
+"family": "Caminhão",
+"formula": "6 + 10 = 16",
+"pbtc": "16",
+"img": "C2.png"
+},
+{
+"code": "C3",
+"familyKey": "C",
+"family": "Caminhão",
+"formula": "6 + 17 = 23",
+"pbtc": "23",
+"img": "C3.png"
+},
+{
+"code": "C4",
+"familyKey": "C",
+"family": "Caminhão",
+"formula": "6 + 13,5 = 19,5",
+"pbtc": "19,5",
+"img": "C4.png"
+},
+{
+"code": "C5",
+"familyKey": "C",
+"family": "Caminhão",
+"formula": "6 + 13,5 = 19,5",
+"pbtc": "19,5",
+"img": "C5.png"
+},
+{
+"code": "C6",
+"familyKey": "C",
+"family": "Caminhão",
+"formula": "12 + 10 = 22",
+"pbtc": "22",
+"img": "C6.png"
+},
+{
+"code": "C7",
+"familyKey": "C",
+"family": "Caminhão",
+"formula": "12 + 17 = 29",
+"pbtc": "29",
+"img": "C7.png"
+},
+{
+"code": "C8",
+"familyKey": "C",
+"family": "Caminhão",
+"formula": "12 + 13,5 = 25,5",
+"pbtc": "25,5",
+"img": "C8.png"
+},
+{
+"code": "C9",
+"familyKey": "C",
+"family": "Caminhão",
+"formula": "12 + 13,5 = 25,5",
+"pbtc": "25,5",
+"img": "C9.png"
+},
+{
+"code": "CTS1",
+"familyKey": "CTS",
+"family": "Caminhão Trator + Semirreboque",
+"formula": "6 + 10 + 10 = 26",
+"pbtc": "26",
+"img": "CTS1.png"
+},
+{
+"code": "CTS2",
+"familyKey": "CTS",
+"family": "Caminhão Trator + Semirreboque",
+"formula": "6 + 10 + 17 = 33",
+"pbtc": "33",
+"img": "CTS2.png"
+},
+{
+"code": "CTS3",
+"familyKey": "CTS",
+"family": "Caminhão Trator + Semirreboque",
+"formula": "6 + 10 + 10 + 10 = 36",
+"pbtc": "36",
+"img": "CTS3.png"
+},
+{
+"code": "CTS4",
+"familyKey": "CTS",
+"family": "Caminhão Trator + Semirreboque",
+"formula": "6 + 10 + 25,5 = 41,5",
+"pbtc": "41,5",
+"img": "CTS4.png"
+},
+{
+"code": "CTS5",
+"familyKey": "CTS",
+"family": "Caminhão Trator + Semirreboque",
+"formula": "6 + 10 + 10 + 17 = 43",
+"pbtc": "43",
+"img": "CTS5.png"
+},
+{
+"code": "CTS6",
+"familyKey": "CTS",
+"family": "Caminhão Trator + Semirreboque",
+"formula": "6 + 10 + 10 + 10 + 10 = 46",
+"pbtc": "46",
+"img": "CTS6.png"
+},
+{
+"code": "CTS7",
+"familyKey": "CTS",
+"family": "Caminhão Trator + Semirreboque",
+"formula": "6 + 17 + 10 = 33",
+"pbtc": "33",
+"img": "CTS7.png"
+},
+{
+"code": "CTS8",
+"familyKey": "CTS",
+"family": "Caminhão Trator + Semirreboque",
+"formula": "6 + 17 + 10 + 10 = 43",
+"pbtc": "43",
+"img": "CTS8.png"
+},
+{
+"code": "CTS9",
+"familyKey": "CTS",
+"family": "Caminhão Trator + Semirreboque",
+"formula": "6 + 13,5 + 10 + 10 = 39,5",
+"pbtc": "39,5",
+"img": "CTS9.png"
+},
+{
+"code": "CTS10",
+"familyKey": "CTS",
+"family": "Caminhão Trator + Semirreboque",
+"formula": "6 + 17 + 25,5 = 48,5",
+"pbtc": "48,5",
+"img": "CTS10.png"
+},
+{
+"code": "CTS11",
+"familyKey": "CTS",
+"family": "Caminhão Trator + Semirreboque",
+"formula": "6 + 17 + 10 + 25,5 = 58,5",
+"pbtc": "58,5",
+"img": "CTS11.png"
+},
+{
+"code": "CTS12",
+"familyKey": "CTS",
+"family": "Caminhão Trator + Semirreboque",
+"formula": "6 + 13,5 + 25,5 = 45",
+"pbtc": "45",
+"img": "CTS12.png"
+},
+{
+"code": "CTS13",
+"familyKey": "CTS",
+"family": "Caminhão Trator + Semirreboque",
+"formula": "6 + 17 + 10 + 17 = 50",
+"pbtc": "50",
+"img": "CTS13.png"
+},
+{
+"code": "CTS14",
+"familyKey": "CTS",
+"family": "Caminhão Trator + Semirreboque",
+"formula": "6 + 13,5 + 10 + 17 = 46,5",
+"pbtc": "46,5",
+"img": "CTS14.png"
+},
+{
+"code": "CTS15",
+"familyKey": "CTS",
+"family": "Caminhão Trator + Semirreboque",
+"formula": "6 + 17 + 10 + 10 + 10 = 53",
+"pbtc": "53",
+"img": "CTS15.png"
+},
+{
+"code": "CTS16",
+"familyKey": "CTS",
+"family": "Caminhão Trator + Semirreboque",
+"formula": "6 + 13,5 + 10 + 10 + 10 = 49,5",
+"pbtc": "49,5",
+"img": "CTS16.png"
+},
+{
+"code": "CTS17",
+"familyKey": "CTS",
+"family": "Caminhão Trator + Semirreboque",
+"formula": "6 + 13,5 + 10 = 29,5",
+"pbtc": "29,5",
+"img": "CTS17.png"
+},
+{
+"code": "CTS18",
+"familyKey": "CTS",
+"family": "Caminhão Trator + Semirreboque",
+"formula": "6 + 13,5 + 17 = 36,5",
+"pbtc": "36,5",
+"img": "CTS18.png"
+},
+{
+"code": "CTS19",
+"familyKey": "CTS",
+"family": "Caminhão Trator + Semirreboque",
+"formula": "6 + 17 + 17 = 40",
+"pbtc": "40",
+"img": "CTS19.png"
+},
+{
+"code": "CTS20",
+"familyKey": "CTS",
+"family": "Caminhão Trator + Semirreboque",
+"formula": "12 + 13,5 + 10 + 17 = 52,5",
+"pbtc": "52,5",
+"img": "CTS20.png"
+},
+{
+"code": "CTS21",
+"familyKey": "CTS",
+"family": "Caminhão Trator + Semirreboque",
+"formula": "12 + 10 + 25,5 = 47,5",
+"pbtc": "47,5",
+"img": "CTS21.png"
+},
+{
+"code": "CTS22",
+"familyKey": "CTS",
+"family": "Caminhão Trator + Semirreboque",
+"formula": "12 + 17 + 25,5 = 54,5",
+"pbtc": "54,5",
+"img": "CTS22.png"
+},
+{
+"code": "CTS23",
+"familyKey": "CTS",
+"family": "Caminhão Trator + Semirreboque",
+"formula": "12 + 13,5 + 25,5 = 51",
+"pbtc": "51",
+"img": "CTS23.png"
+},
+{
+"code": "CTS24",
+"familyKey": "CTS",
+"family": "Caminhão Trator + Semirreboque",
+"formula": "12 + 17 + 10 = 39",
+"pbtc": "39",
+"img": "CTS24.png"
+},
+{
+"code": "CTS25",
+"familyKey": "CTS",
+"family": "Caminhão Trator + Semirreboque",
+"formula": "12 + 13,5 + 10 = 35,5",
+"pbtc": "35,5",
+"img": "CTS25.png"
+},
+{
+"code": "CTS26",
+"familyKey": "CTS",
+"family": "Caminhão Trator + Semirreboque",
+"formula": "12 + 17 + 17 = 46",
+"pbtc": "46",
+"img": "CTS26.png"
+},
+{
+"code": "CTS27",
+"familyKey": "CTS",
+"family": "Caminhão Trator + Semirreboque",
+"formula": "12 + 13,5 + 17 = 42,5",
+"pbtc": "42,5",
+"img": "CTS27.png"
+},
+{
+"code": "CTS28",
+"familyKey": "CTS",
+"family": "Caminhão Trator + Semirreboque",
+"formula": "12 + 17 + 10 + 10 = 49",
+"pbtc": "49",
+"img": "CTS28.png"
+},
+{
+"code": "CTS29",
+"familyKey": "CTS",
+"family": "Caminhão Trator + Semirreboque",
+"formula": "12 + 13,5 + 10 + 10 = 45,5",
+"pbtc": "45,5",
+"img": "CTS29.png"
+},
+{
+"code": "CR1",
+"familyKey": "CR",
+"family": "Caminhão + Reboque",
+"formula": "6 + 10 + 10 + 10 = 36",
+"pbtc": "36",
+"img": "CR1.png"
+},
+{
+"code": "CR2",
+"familyKey": "CR",
+"family": "Caminhão + Reboque",
+"formula": "6 + 10 + 10 + 17 = 43",
+"pbtc": "43",
+"img": "CR2.png"
+},
+{
+"code": "CR3",
+"familyKey": "CR",
+"family": "Caminhão + Reboque",
+"formula": "6 + 10 + 17 + 17 = 50",
+"pbtc": "50",
+"img": "CR3.png"
+},
+{
+"code": "CR4",
+"familyKey": "CR",
+"family": "Caminhão + Reboque",
+"formula": "6 + 17 + 10 + 10 = 43",
+"pbtc": "43",
+"img": "CR4.png"
+},
+{
+"code": "CR5",
+"familyKey": "CR",
+"family": "Caminhão + Reboque",
+"formula": "6 + 17 + 10 + 17 = 50",
+"pbtc": "50",
+"img": "CR5.png"
+},
+{
+"code": "CR6",
+"familyKey": "CR",
+"family": "Caminhão + Reboque",
+"formula": "6 + 17 + 17 + 17 = 57",
+"pbtc": "57",
+"img": "CR6.png"
+},
+{
+"code": "CR7",
+"familyKey": "CR",
+"family": "Caminhão + Reboque",
+"formula": "6 + 13,5 + 10 + 10 = 39,5",
+"pbtc": "39,5",
+"img": "CR7.png"
+},
+{
+"code": "CR8",
+"familyKey": "CR",
+"family": "Caminhão + Reboque",
+"formula": "6 + 13,5 + 10 + 17 = 46,5",
+"pbtc": "46,5",
+"img": "CR8.png"
+},
+{
+"code": "CR9",
+"familyKey": "CR",
+"family": "Caminhão + Reboque",
+"formula": "6 + 13,5 + 17 + 17 = 53,5",
+"pbtc": "53,5",
+"img": "CR9.png"
+},
+{
+"code": "CR10",
+"familyKey": "CR",
+"family": "Caminhão + Reboque",
+"formula": "12 + 17 + 10 + 10 = 49",
+"pbtc": "49",
+"img": "CR10.png"
+},
+{
+"code": "CR11",
+"familyKey": "CR",
+"family": "Caminhão + Reboque",
+"formula": "12 + 17 + 10 + 17 = 56",
+"pbtc": "56",
+"img": "CR11.png"
+},
+{
+"code": "CR12",
+"familyKey": "CR",
+"family": "Caminhão + Reboque",
+"formula": "12 + 13,5 + 10 + 10 = 45,5",
+"pbtc": "45,5",
+"img": "CR12.png"
+},
+{
+"code": "CR13",
+"familyKey": "CR",
+"family": "Caminhão + Reboque",
+"formula": "12 + 13,5 + 10 + 17 = 52,5",
+"pbtc": "52,5",
+"img": "CR13.png"
+},
+{
+"code": "CTSR1",
+"familyKey": "CTSR",
+"family": "Caminhão Trator + Semirreboque + Reboque",
+"formula": "6 + 10 + 10 + 10 + 10 = 46",
+"pbtc": "46",
+"img": "CTSR1.png"
+},
+{
+"code": "CTSR2",
+"familyKey": "CTSR",
+"family": "Caminhão Trator + Semirreboque + Reboque",
+"formula": "6 + 10 + 17 + 10 + 10 = 53",
+"pbtc": "53",
+"img": "CTSR2.png"
+},
+{
+"code": "CTSR3",
+"familyKey": "CTSR",
+"family": "Caminhão Trator + Semirreboque + Reboque",
+"formula": "6 + 10 + 10 + 10 + 17 = 53",
+"pbtc": "53",
+"img": "CTSR3.png"
+},
+{
+"code": "CTSR4",
+"familyKey": "CTSR",
+"family": "Caminhão Trator + Semirreboque + Reboque",
+"formula": "6 + 17 + 10 + 10 + 10 = 53",
+"pbtc": "53",
+"img": "CTSR4.png"
+},
+{
+"code": "CTSR5",
+"familyKey": "CTSR",
+"family": "Caminhão Trator + Semirreboque + Reboque",
+"formula": "6 + 13,5 + 10 + 10 + 10 = 49,5",
+"pbtc": "49,5",
+"img": "CTSR5.png"
+},
+{
+"code": "CTSR6",
+"familyKey": "CTSR",
+"family": "Caminhão Trator + Semirreboque + Reboque",
+"formula": "6 + 13,5 + 17 + 10 + 10 = 56,5",
+"pbtc": "56,5",
+"img": "CTSR6.png"
+},
+{
+"code": "CTSR7",
+"familyKey": "CTSR",
+"family": "Caminhão Trator + Semirreboque + Reboque",
+"formula": "6 + 13,5 + 10 + 10 + 17 = 56,5",
+"pbtc": "56,5",
+"img": "CTSR7.png"
+},
+{
+"code": "CTSS1",
+"familyKey": "CTSS",
+"family": "Caminhão Trator + 2 Semirreboques",
+"formula": "6 + 10 + 10 + 10 = 36",
+"pbtc": "36",
+"img": "CTSS1.png"
+},
+{
+"code": "CTSS2",
+"familyKey": "CTSS",
+"family": "Caminhão Trator + 2 Semirreboques",
+"formula": "6 + 17 + 10 + 10 = 43",
+"pbtc": "43",
+"img": "CTSS2.png"
+},
+{
+"code": "CTSS3",
+"familyKey": "CTSS",
+"family": "Caminhão Trator + 2 Semirreboques",
+"formula": "6 + 13,5 + 10 + 10 = 39,5",
+"pbtc": "39,5",
+"img": "CTSS3.png"
+},
+{
+"code": "CTSS4",
+"familyKey": "CTSS",
+"family": "Caminhão Trator + 2 Semirreboques",
+"formula": "6 + 10 + 17 + 10 = 43",
+"pbtc": "43",
+"img": "CTSS4.png"
+},
+{
+"code": "CTSS5",
+"familyKey": "CTSS",
+"family": "Caminhão Trator + 2 Semirreboques",
+"formula": "6 + 17 + 17 + 10 = 50",
+"pbtc": "50",
+"img": "CTSS5.png"
+},
+{
+"code": "CTSS6",
+"familyKey": "CTSS",
+"family": "Caminhão Trator + 2 Semirreboques",
+"formula": "6 + 13,5 + 17 + 10 = 46,5",
+"pbtc": "46,5",
+"img": "CTSS6.png"
+},
+{
+"code": "CTSS7",
+"familyKey": "CTSS",
+"family": "Caminhão Trator + 2 Semirreboques",
+"formula": "6 + 10 + 17 + 17 = 50",
+"pbtc": "50",
+"img": "CTSS7.png"
+},
+{
+"code": "CTSS8",
+"familyKey": "CTSS",
+"family": "Caminhão Trator + 2 Semirreboques",
+"formula": "6 + 17 + 17 + 17 = 57",
+"pbtc": "57",
+"img": "CTSS8.png"
+},
+{
+"code": "CTSS9",
+"familyKey": "CTSS",
+"family": "Caminhão Trator + 2 Semirreboques",
+"formula": "6 + 13,5 + 17 + 17 = 53,5",
+"pbtc": "53,5",
+"img": "CTSS9.png"
+},
+{
+"code": "CTSR1+",
+"familyKey": "CTSR",
+"family": "Caminhão Trator + Semirreboque + Reboque (necessita de AET)",
+"formula": "6 + 10 + 10 + 10 + 10 = 46",
+"pbtc": "46",
+"img": "CTSR1p.png"
+},
+{
+"code": "CTSR2+",
+"familyKey": "CTSR",
+"family": "Caminhão Trator + Semirreboque + Reboque (necessita de AET)",
+"formula": "6 + 17 + 10 + 10 + 10 = 53",
+"pbtc": "53",
+"img": "CTSR2p.png"
+},
+{
+"code": "CTSR3+",
+"familyKey": "CTSR",
+"family": "Caminhão Trator + Semirreboque + Reboque (necessita de AET)",
+"formula": "6 + 10 + 10 + 10 + 17 = 53",
+"pbtc": "53",
+"img": "CTSR3p.png"
+},
+{
+"code": "CTSR4+",
+"familyKey": "CTSR",
+"family": "Caminhão Trator + Semirreboque + Reboque (necessita de AET)",
+"formula": "6 + 17 + 17 + 10 + 10 = 60",
+"pbtc": "60",
+"img": "CTSR4p.png"
+},
+{
+"code": "CTSR5+",
+"familyKey": "CTSR",
+"family": "Caminhão Trator + Semirreboque + Reboque (necessita de AET)",
+"formula": "6 + 17 + 17 + 10 + 17 = 67",
+"pbtc": "67",
+"img": "CTSR5p.png"
+},
+{
+"code": "CTSR6+",
+"familyKey": "CTSR",
+"family": "Caminhão Trator + Semirreboque + Reboque (necessita de AET)",
+"formula": "6 + 17 + 17 + 17 + 17 = 74",
+"pbtc": "74",
+"img": "CTSR6p.png"
+},
+{
+"code": "CTSR7+",
+"familyKey": "CTSR",
+"family": "Caminhão Trator + Semirreboque + Reboque (necessita de AET)",
+"formula": "12 + 17 + 17 + 10 + 10 = 66",
+"pbtc": "66",
+"img": "CTSR7p.png"
+},
+{
+"code": "CTSR8+",
+"familyKey": "CTSR",
+"family": "Caminhão Trator + Semirreboque + Reboque (necessita de AET)",
+"formula": "12 + 17 + 17 + 10 + 17 = 73",
+"pbtc": "73",
+"img": "CTSR8p.png"
+},
+{
+"code": "CTSS1+",
+"familyKey": "CTSS",
+"family": "Caminhão Trator + 2 Semirreboques (necessita de AET)",
+"formula": "6 + 10 + 10 + 10 = 36",
+"pbtc": "36",
+"img": "CTSS1p.png"
+},
+{
+"code": "CTSS2+",
+"familyKey": "CTSS",
+"family": "Caminhão Trator + 2 Semirreboques (necessita de AET)",
+"formula": "6 + 17 + 10 + 10 = 43",
+"pbtc": "43",
+"img": "CTSS2p.png"
+},
+{
+"code": "CTSS3+",
+"familyKey": "CTSS",
+"family": "Caminhão Trator + 2 Semirreboques (necessita de AET)",
+"formula": "6 + 13,5 + 10 + 10 = 39,5",
+"pbtc": "39,5",
+"img": "CTSS3p.png"
+},
+{
+"code": "CTSS4+",
+"familyKey": "CTSS",
+"family": "Caminhão Trator + 2 Semirreboques (necessita de AET)",
+"formula": "6 + 10 + 17 + 10 = 43",
+"pbtc": "43",
+"img": "CTSS4p.png"
+},
+{
+"code": "CTSS5+",
+"familyKey": "CTSS",
+"family": "Caminhão Trator + 2 Semirreboques (necessita de AET)",
+"formula": "6 + 17 + 17 + 10 = 50",
+"pbtc": "50",
+"img": "CTSS5p.png"
+},
+{
+"code": "CTSS6+",
+"familyKey": "CTSS",
+"family": "Caminhão Trator + 2 Semirreboques (necessita de AET)",
+"formula": "6 + 13,5 + 17 + 10 = 46,5",
+"pbtc": "46,5",
+"img": "CTSS6p.png"
+},
+{
+"code": "CTSS7+",
+"familyKey": "CTSS",
+"family": "Caminhão Trator + 2 Semirreboques (necessita de AET)",
+"formula": "6 + 10 + 17 + 17 = 50",
+"pbtc": "50",
+"img": "CTSS7p.png"
+},
+{
+"code": "CTSS8+",
+"familyKey": "CTSS",
+"family": "Caminhão Trator + 2 Semirreboques (necessita de AET)",
+"formula": "6 + 17 + 17 + 17 = 57",
+"pbtc": "57",
+"img": "CTSS8p.png"
+},
+{
+"code": "CTSS9+",
+"familyKey": "CTSS",
+"family": "Caminhão Trator + 2 Semirreboques (necessita de AET)",
+"formula": "6 + 13,5 + 17 + 17 = 53,5",
+"pbtc": "53,5",
+"img": "CTSS9p.png"
+},
+{
+"code": "CTSS10+",
+"familyKey": "CTSS",
+"family": "Caminhão Trator + 2 Semirreboques (necessita de AET)",
+"formula": "6 + 17 + 17 + 25,5 = 65,5",
+"pbtc": "65,5",
+"img": "CTSS10p.png"
+},
+{
+"code": "CTSS11+",
+"familyKey": "CTSS",
+"family": "Caminhão Trator + 2 Semirreboques (necessita de AET)",
+"formula": "6 + 17 + 25,5 + 17 = 65,5",
+"pbtc": "65,5",
+"img": "CTSS11p.png"
+},
+{
+"code": "CTSS12+",
+"familyKey": "CTSS",
+"family": "Caminhão Trator + 2 Semirreboques (necessita de AET)",
+"formula": "6 + 17 + 25,5 + 25,5 = 74",
+"pbtc": "74",
+"img": "CTSS12p.png"
+},
+{
+"code": "CTSS13+",
+"familyKey": "CTSS",
+"family": "Caminhão Trator + 2 Semirreboques (necessita de AET)",
+"formula": "12 + 17 + 17 + 17 = 63",
+"pbtc": "63",
+"img": "CTSS13p.png"
+},
+{
+"code": "CRR1+",
+"familyKey": "CRR",
+"family": "Caminhão + 2 Reboques (necessita de AET)",
+"formula": "6 + 17 + 10 + 10 + 10 + 10 = 63",
+"pbtc": "63",
+"img": "CRR1p.png"
+},
+{
+"code": "CRR2+",
+"familyKey": "CRR",
+"family": "Caminhão + 2 Reboques (necessita de AET)",
+"formula": "6 + 17 + 10 + 10 + 10 + 17 = 70",
+"pbtc": "70",
+"img": "CRR2p.png"
+},
+{
+"code": "CRR3+",
+"familyKey": "CRR",
+"family": "Caminhão + 2 Reboques (necessita de AET)",
+"formula": "12 + 17 + 10 + 10 + 10 + 10 = 69",
+"pbtc": "69",
+"img": "CRR3p.png"
+},
+{
+"code": "CTSSS1+",
+"familyKey": "CTSSS",
+"family": "Caminhão Trator + 3 Semirreboques (necessita de AET)",
+"formula": "6 + 17 + 17 + 10 + 10 = 60",
+"pbtc": "60",
+"img": "CTSSS1p.png"
+},
+{
+"code": "CTSSS2+",
+"familyKey": "CTSSS",
+"family": "Caminhão Trator + 3 Semirreboques (necessita de AET)",
+"formula": "6 + 17 + 10 + 17 + 10 = 60",
+"pbtc": "60",
+"img": "CTSSS2p.png"
+},
+{
+"code": "CTSSS3+",
+"familyKey": "CTSSS",
+"family": "Caminhão Trator + 3 Semirreboques (necessita de AET)",
+"formula": "6 + 17 + 10 + 10 + 17 = 60",
+"pbtc": "60",
+"img": "CTSSS3p.png"
+},
+{
+"code": "CTSSS4+",
+"familyKey": "CTSSS",
+"family": "Caminhão Trator + 3 Semirreboques (necessita de AET)",
+"formula": "6 + 17 + 17 + 17 + 10 = 67",
+"pbtc": "67",
+"img": "CTSSS4p.png"
+},
+{
+"code": "CTSSS5+",
+"familyKey": "CTSSS",
+"family": "Caminhão Trator + 3 Semirreboques (necessita de AET)",
+"formula": "6 + 17 + 17 + 10 + 17 = 67",
+"pbtc": "67",
+"img": "CTSSS5p.png"
+},
+{
+"code": "CTSSS6+",
+"familyKey": "CTSSS",
+"family": "Caminhão Trator + 3 Semirreboques (necessita de AET)",
+"formula": "6 + 17 + 10 + 17 + 17 = 67",
+"pbtc": "67",
+"img": "CTSSS6p.png"
+},
+{
+"code": "CTSSS7+",
+"familyKey": "CTSSS",
+"family": "Caminhão Trator + 3 Semirreboques (necessita de AET)",
+"formula": "6 + 17 + 17 + 17 + 17 = 74",
+"pbtc": "74",
+"img": "CTSSS7p.png"
+},
+{
+"code": "CTSSS8+",
+"familyKey": "CTSSS",
+"family": "Caminhão Trator + 3 Semirreboques (necessita de AET)",
+"formula": "6 + 13,5 + 17 + 10 + 10 = 56,5",
+"pbtc": "56,5",
+"img": "CTSSS8p.png"
+},
+{
+"code": "CR1+",
+"familyKey": "CR",
+"family": "Caminhão + Reboque (necessita de AET)",
+"formula": "6 + 10 + 10 + 10 = 36",
+"pbtc": "36",
+"img": "CR1p.png"
+},
+{
+"code": "CR2+",
+"familyKey": "CR",
+"family": "Caminhão + Reboque (necessita de AET)",
+"formula": "6 + 10 + 10 + 17 = 43",
+"pbtc": "43",
+"img": "CR2p.png"
+},
+{
+"code": "CR3+",
+"familyKey": "CR",
+"family": "Caminhão + Reboque (necessita de AET)",
+"formula": "6 + 10 + 17 + 17 = 50",
+"pbtc": "50",
+"img": "CR3p.png"
+},
+{
+"code": "CR4+",
+"familyKey": "CR",
+"family": "Caminhão + Reboque (necessita de AET)",
+"formula": "6 + 17 + 10 + 10 = 43",
+"pbtc": "43",
+"img": "CR4p.png"
+},
+{
+"code": "CR5+",
+"familyKey": "CR",
+"family": "Caminhão + Reboque (necessita de AET)",
+"formula": "6 + 17 + 10 + 17 = 50",
+"pbtc": "50",
+"img": "CR5p.png"
+},
+{
+"code": "CR6+",
+"familyKey": "CR",
+"family": "Caminhão + Reboque (necessita de AET)",
+"formula": "6 + 17 + 17 + 17 = 57",
+"pbtc": "57",
+"img": "CR6p.png"
+},
+{
+"code": "CR7+",
+"familyKey": "CR",
+"family": "Caminhão + Reboque (necessita de AET)",
+"formula": "6 + 13,5 + 10 + 10 = 39,5",
+"pbtc": "39,5",
+"img": "CR7p.png"
+},
+{
+"code": "CR8+",
+"familyKey": "CR",
+"family": "Caminhão + Reboque (necessita de AET)",
+"formula": "6 + 13,5 + 10 + 17 = 46,5",
+"pbtc": "46,5",
+"img": "CR8p.png"
+},
+{
+"code": "CR9+",
+"familyKey": "CR",
+"family": "Caminhão + Reboque (necessita de AET)",
+"formula": "6 + 13,5 + 17 + 17 = 53,5",
+"pbtc": "53,5",
+"img": "CR9p.png"
+},
+{
+"code": "CR10+",
+"familyKey": "CR",
+"family": "Caminhão + Reboque (necessita de AET)",
+"formula": "12 + 17 + 10 + 10 = 49",
+"pbtc": "49",
+"img": "CR10p.png"
+},
+{
+"code": "CR11+",
+"familyKey": "CR",
+"family": "Caminhão + Reboque (necessita de AET)",
+"formula": "12 + 17 + 10 + 17 = 56",
+"pbtc": "56",
+"img": "CR11p.png"
+},
+{
+"code": "CR12+",
+"familyKey": "CR",
+"family": "Caminhão + Reboque (necessita de AET)",
+"formula": "12 + 13,5 + 10 + 10 = 45,5",
+"pbtc": "45,5",
+"img": "CR12p.png"
+},
+{
+"code": "CR13+",
+"familyKey": "CR",
+"family": "Caminhão + Reboque (necessita de AET)",
+"formula": "12 + 13,5 + 10 + 17 = 52,5",
+"pbtc": "52,5",
+"img": "CR13p.png"
+},
+{
+"code": "CTSRr1+",
+"familyKey": "CTSRr",
+"family": "Caminhão Trator + Semirreboque + Reboque com rala (necessita de AET)",
+"formula": "6 + 17 + 25,5 + 17 + 25,5 = 91",
+"pbtc": "91",
+"img": "CTSRr1p.png"
+},
+{
+"code": "CTSRr2+",
+"familyKey": "CTSRr",
+"family": "Caminhão Trator + Semirreboque + Reboque com rala (necessita de AET)",
+"formula": "6 + 17 + 17 + 17 + 25,5 = 82,5",
+"pbtc": "82,5",
+"img": "CTSRr2p.png"
+},
+{
+"code": "CTSRr3+",
+"familyKey": "CTSRr",
+"family": "Caminhão Trator + Semirreboque + Reboque com rala (necessita de AET)",
+"formula": "6 + 17 + 25,5 + 17 + 17 = 82,5",
+"pbtc": "82,5",
+"img": "CTSRr3p.png"
+},
+{
+"code": "OU1",
+"familyKey": "OU",
+"family": "Ônibus Urbano",
+"formula": "6 + 6 = 12",
+"pbtc": "12",
+"img": "OU1.png"
+},
+{
+"code": "OU2",
+"familyKey": "OU",
+"family": "Ônibus Urbano",
+"formula": "6 + 10 = 16",
+"pbtc": "16",
+"img": "OU2.png"
+},
+{
+"code": "OU3",
+"familyKey": "OU",
+"family": "Ônibus Urbano",
+"formula": "6 + 17 = 23",
+"pbtc": "23",
+"img": "OU3.png"
+},
+{
+"code": "OU4",
+"familyKey": "OU",
+"family": "Ônibus Urbano",
+"formula": "6 + 13,5 = 19,5",
+"pbtc": "19,5",
+"img": "OU4.png"
+},
+{
+"code": "OU5",
+"familyKey": "OU",
+"family": "Ônibus Urbano",
+"formula": "6 + 13,5 = 19,5",
+"pbtc": "19,5",
+"img": "OU5.png"
+},
+{
+"code": "OU6",
+"familyKey": "OU",
+"family": "Ônibus Urbano",
+"formula": "12 + 10 = 22",
+"pbtc": "22",
+"img": "OU6.png"
+},
+{
+"code": "OU7",
+"familyKey": "OU",
+"family": "Ônibus Urbano",
+"formula": "12 + 10 = 22",
+"pbtc": "22",
+"img": "OU7.png"
+},
+{
+"code": "OU8",
+"familyKey": "OU",
+"family": "Ônibus Urbano",
+"formula": "12 + 10 = 22",
+"pbtc": "22",
+"img": "OU8.png"
+},
+{
+"code": "OU9",
+"familyKey": "OU",
+"family": "Ônibus Urbano",
+"formula": "12 + 17 = 29",
+"pbtc": "29",
+"img": "OU9.png"
+},
+{
+"code": "OU10",
+"familyKey": "OU",
+"family": "Ônibus Urbano",
+"formula": "12 + 13,5 = 25,5",
+"pbtc": "25,5",
+"img": "OU10.png"
+},
+{
+"code": "OU11",
+"familyKey": "OU",
+"family": "Ônibus Urbano",
+"formula": "12 + 13,5 = 25,5",
+"pbtc": "25,5",
+"img": "OU11.png"
+},
+{
+"code": "OUA1",
+"familyKey": "OUA",
+"family": "Ônibus Urbano Articulado",
+"formula": "6 + 10 + 10 = 26",
+"pbtc": "26",
+"img": "OUA1.png"
+},
+{
+"code": "OUA2",
+"familyKey": "OUA",
+"family": "Ônibus Urbano Articulado",
+"formula": "6 + 17 + 10 = 33",
+"pbtc": "33",
+"img": "OUA2.png"
+},
+{
+"code": "OUA3",
+"familyKey": "OUA",
+"family": "Ônibus Urbano Articulado",
+"formula": "6 + 13,5 + 10 = 29,5",
+"pbtc": "29,5",
+"img": "OUA3.png"
+},
+{
+"code": "OUA4",
+"familyKey": "OUA",
+"family": "Ônibus Urbano Articulado",
+"formula": "6 + 13,5 + 10 = 29,5",
+"pbtc": "29,5",
+"img": "OUA4.png"
+},
+{
+"code": "OUA5",
+"familyKey": "OUA",
+"family": "Ônibus Urbano Articulado",
+"formula": "12 + 10 + 10 = 32",
+"pbtc": "32",
+"img": "OUA5.png"
+},
+{
+"code": "OUA6",
+"familyKey": "OUA",
+"family": "Ônibus Urbano Articulado",
+"formula": "12 + 10 + 10 = 32",
+"pbtc": "32",
+"img": "OUA6.png"
+},
+{
+"code": "OUA7",
+"familyKey": "OUA",
+"family": "Ônibus Urbano Articulado",
+"formula": "6 + 6 + 17 = 29",
+"pbtc": "29",
+"img": "OUA7.png"
+},
+{
+"code": "OUA8",
+"familyKey": "OUA",
+"family": "Ônibus Urbano Articulado",
+"formula": "6 + 10 + 13,5 = 29,5",
+"pbtc": "29,5",
+"img": "OUA8.png"
+},
+{
+"code": "OUA9",
+"familyKey": "OUA",
+"family": "Ônibus Urbano Articulado",
+"formula": "6 + 10 + 13,5 = 29,5",
+"pbtc": "29,5",
+"img": "OUA9.png"
+},
+{
+"code": "OUA10",
+"familyKey": "OUA",
+"family": "Ônibus Urbano Articulado",
+"formula": "6 + 10 + 10 + 6 = 32",
+"pbtc": "32",
+"img": "OUA10.png"
+},
+{
+"code": "OUA11",
+"familyKey": "OUA",
+"family": "Ônibus Urbano Articulado",
+"formula": "6 + 10 + 6 + 10 = 32",
+"pbtc": "32",
+"img": "OUA11.png"
+},
+{
+"code": "OUA12",
+"familyKey": "OUA",
+"family": "Ônibus Urbano Articulado",
+"formula": "6 + 10 + 10 + 10 = 36",
+"pbtc": "36",
+"img": "OUA12.png"
+},
+{
+"code": "OUA13",
+"familyKey": "OUA",
+"family": "Ônibus Urbano Articulado",
+"formula": "6 + 13,5 + 10 + 10 = 39,5",
+"pbtc": "39,5",
+"img": "OUA13.png"
+},
+{
+"code": "OUA14",
+"familyKey": "OUA",
+"family": "Ônibus Urbano Articulado",
+"formula": "6 + 13,5 + 10 + 10 = 39,5",
+"pbtc": "39,5",
+"img": "OUA14.png"
+},
+{
+"code": "OUA15",
+"familyKey": "OUA",
+"family": "Ônibus Urbano Articulado",
+"formula": "12 + 10 + 13,5 = 35,5",
+"pbtc": "35,5",
+"img": "OUA15.png"
+},
+{
+"code": "OUR1",
+"familyKey": "OUR",
+"family": "Ônibus Urbano com Reboque",
+"formula": "6 + 10 + 10 + 10 = 36",
+"pbtc": "36",
+"img": "OUR1.png"
+},
+{
+"code": "OUR2",
+"familyKey": "OUR",
+"family": "Ônibus Urbano com Reboque",
+"formula": "6 + 13,5 + 10 + 10 = 39,5",
+"pbtc": "39,5",
+"img": "OUR2.png"
+},
+{
+"code": "OUR3",
+"familyKey": "OUR",
+"family": "Ônibus Urbano com Reboque",
+"formula": "6 + 13,5 + 10 + 10 = 39,5",
+"pbtc": "39,5",
+"img": "OUR3.png"
+},
+{
+"code": "OUR4",
+"familyKey": "OUR",
+"family": "Ônibus Urbano com Reboque",
+"formula": "6 + 10 + 6 + 10 = 32",
+"pbtc": "32",
+"img": "OUR4.png"
+},
+{
+"code": "OUR5",
+"familyKey": "OUR",
+"family": "Ônibus Urbano com Reboque",
+"formula": "6 + 13,5 + 6 + 10 = 35,5",
+"pbtc": "35,5",
+"img": "OUR5.png"
+},
+{
+"code": "OUR6",
+"familyKey": "OUR",
+"family": "Ônibus Urbano com Reboque",
+"formula": "6 + 13,5 + 6 + 10 = 35,5",
+"pbtc": "35,5",
+"img": "OUR6.png"
+},
+{
+"code": "OUR7",
+"familyKey": "OUR",
+"family": "Ônibus Urbano com Reboque",
+"formula": "12 + 10 + 6 + 10 = 38",
+"pbtc": "38",
+"img": "OUR7.png"
+},
+{
+"code": "OUR8",
+"familyKey": "OUR",
+"family": "Ônibus Urbano com Reboque",
+"formula": "12 + 10 + 6 + 10 = 38",
+"pbtc": "38",
+"img": "OUR8.png"
+},
+{
+"code": "OUA1+",
+"familyKey": "OUA",
+"family": "Ônibus Urbano Articulado (necessita de AET)",
+"formula": "6 + 10 + 10 = 26",
+"pbtc": "26",
+"img": "OUA1p.png"
+},
+{
+"code": "OUA2+",
+"familyKey": "OUA",
+"family": "Ônibus Urbano Articulado (necessita de AET)",
+"formula": "6 + 17 + 10 = 33",
+"pbtc": "33",
+"img": "OUA2p.png"
+},
+{
+"code": "OUA3+",
+"familyKey": "OUA",
+"family": "Ônibus Urbano Articulado (necessita de AET)",
+"formula": "6 + 13,5 + 10 = 29,5",
+"pbtc": "29,5",
+"img": "OUA3p.png"
+},
+{
+"code": "OUA4+",
+"familyKey": "OUA",
+"family": "Ônibus Urbano Articulado (necessita de AET)",
+"formula": "6 + 13,5 + 10 = 29,5",
+"pbtc": "29,5",
+"img": "OUA4p.png"
+},
+{
+"code": "OUA5+",
+"familyKey": "OUA",
+"family": "Ônibus Urbano Articulado (necessita de AET)",
+"formula": "6 + 6 + 17 = 29",
+"pbtc": "29",
+"img": "OUA5p.png"
+},
+{
+"code": "OUA6+",
+"familyKey": "OUA",
+"family": "Ônibus Urbano Articulado (necessita de AET)",
+"formula": "6 + 10 + 13,5 = 29,5",
+"pbtc": "29,5",
+"img": "OUA6p.png"
+},
+{
+"code": "OUA7+",
+"familyKey": "OUA",
+"family": "Ônibus Urbano Articulado (necessita de AET)",
+"formula": "6 + 10 + 13,5 = 29,5",
+"pbtc": "29,5",
+"img": "OUA7p.png"
+},
+{
+"code": "OUA8+",
+"familyKey": "OUA",
+"family": "Ônibus Urbano Articulado (necessita de AET)",
+"formula": "6 + 10 + 10 + 6 = 32",
+"pbtc": "32",
+"img": "OUA8p.png"
+},
+{
+"code": "OUA9+",
+"familyKey": "OUA",
+"family": "Ônibus Urbano Articulado (necessita de AET)",
+"formula": "6 + 10 + 6 + 10 = 32",
+"pbtc": "32",
+"img": "OUA9p.png"
+},
+{
+"code": "OUA10+",
+"familyKey": "OUA",
+"family": "Ônibus Urbano Articulado (necessita de AET)",
+"formula": "6 + 10 + 10 + 10 = 36",
+"pbtc": "36",
+"img": "OUA10p.png"
+},
+{
+"code": "OUA11+",
+"familyKey": "OUA",
+"family": "Ônibus Urbano Articulado (necessita de AET)",
+"formula": "6 + 13,5 + 10 + 10 = 39,5",
+"pbtc": "39,5",
+"img": "OUA11p.png"
+},
+{
+"code": "OUA12+",
+"familyKey": "OUA",
+"family": "Ônibus Urbano Articulado (necessita de AET)",
+"formula": "6 + 13,5 + 10 + 10 = 39,5",
+"pbtc": "39,5",
+"img": "OUA12p.png"
+},
+{
+"code": "OUA13+",
+"familyKey": "OUA",
+"family": "Ônibus Urbano Articulado (necessita de AET)",
+"formula": "6 + 17 + 10 + 10 = 43",
+"pbtc": "43",
+"img": "OUA13p.png"
+},
+{
+"code": "OUB1+",
+"familyKey": "OUB",
+"family": "Ônibus Urbano Bi-Articulado (necessita de AET)",
+"formula": "6 + 10 + 10 + 10 = 36",
+"pbtc": "36",
+"img": "OUB1p.png"
+},
+{
+"code": "OUB2+",
+"familyKey": "OUB",
+"family": "Ônibus Urbano Bi-Articulado (necessita de AET)",
+"formula": "6 + 17 + 10 + 10 = 43",
+"pbtc": "43",
+"img": "OUB2p.png"
+},
+{
+"code": "OUB3+",
+"familyKey": "OUB",
+"family": "Ônibus Urbano Bi-Articulado (necessita de AET)",
+"formula": "6 + 13,5 + 10 + 10 = 39,5",
+"pbtc": "39,5",
+"img": "OUB3p.png"
+},
+{
+"code": "OUB4+",
+"familyKey": "OUB",
+"family": "Ônibus Urbano Bi-Articulado (necessita de AET)",
+"formula": "6 + 13,5 + 10 + 10 = 39,5",
+"pbtc": "39,5",
+"img": "OUB4p.png"
+},
+{
+"code": "OUB5+",
+"familyKey": "OUB",
+"family": "Ônibus Urbano Bi-Articulado (necessita de AET)",
+"formula": "12 + 10 + 10 + 10 = 42",
+"pbtc": "42",
+"img": "OUB5p.png"
+},
+{
+"code": "OUB6+",
+"familyKey": "OUB",
+"family": "Ônibus Urbano Bi-Articulado (necessita de AET)",
+"formula": "12 + 10 + 10 + 10 = 42",
+"pbtc": "42",
+"img": "OUB6p.png"
+},
+{
+"code": "OUB7+",
+"familyKey": "OUB",
+"family": "Ônibus Urbano Bi-Articulado (necessita de AET)",
+"formula": "12 + 10 + 10 + 10 = 42",
+"pbtc": "42",
+"img": "OUB7p.png"
+},
+{
+"code": "ORC1",
+"familyKey": "ORC",
+"family": "Ônibus Rodoviário Convencional",
+"formula": "7 + 7 = 14",
+"pbtc": "14",
+"img": "ORC1.png"
+},
+{
+"code": "ORC2",
+"familyKey": "ORC",
+"family": "Ônibus Rodoviário Convencional",
+"formula": "7 + 11 = 18",
+"pbtc": "18",
+"img": "ORC2.png"
+},
+{
+"code": "ORC3",
+"familyKey": "ORC",
+"family": "Ônibus Rodoviário Convencional",
+"formula": "7 + 18 = 25",
+"pbtc": "25",
+"img": "ORC3.png"
+},
+{
+"code": "ORC4",
+"familyKey": "ORC",
+"family": "Ônibus Rodoviário Convencional",
+"formula": "7 + 14,5 = 21,5",
+"pbtc": "21,5",
+"img": "ORC4.png"
+},
+{
+"code": "ORC5",
+"familyKey": "ORC",
+"family": "Ônibus Rodoviário Convencional",
+"formula": "7 + 14,5 = 21,5",
+"pbtc": "21,5",
+"img": "ORC5.png"
+},
+{
+"code": "ORC6",
+"familyKey": "ORC",
+"family": "Ônibus Rodoviário Convencional",
+"formula": "13 + 11 = 24",
+"pbtc": "24",
+"img": "ORC6.png"
+},
+{
+"code": "ORC7",
+"familyKey": "ORC",
+"family": "Ônibus Rodoviário Convencional",
+"formula": "13 + 18 = 31",
+"pbtc": "31",
+"img": "ORC7.png"
+},
+{
+"code": "ORC8",
+"familyKey": "ORC",
+"family": "Ônibus Rodoviário Convencional",
+"formula": "13 + 14,5 = 27,5",
+"pbtc": "27,5",
+"img": "ORC8.png"
+},
+{
+"code": "ORC9",
+"familyKey": "ORC",
+"family": "Ônibus Rodoviário Convencional",
+"formula": "13 + 14,5 = 27,5",
+"pbtc": "27,5",
+"img": "ORC9.png"
+},
+{
+"code": "ORC10",
+"familyKey": "ORC",
+"family": "Ônibus Rodoviário Convencional",
+"formula": "13 + 18 = 31",
+"pbtc": "31",
+"img": "ORC10.png"
+},
+{
+"code": "ORC11",
+"familyKey": "ORC",
+"family": "Ônibus Rodoviário Convencional",
+"formula": "13 + 14,5 = 27,5",
+"pbtc": "27,5",
+"img": "ORC11.png"
+},
+{
+"code": "ORC12",
+"familyKey": "ORC",
+"family": "Ônibus Rodoviário Convencional",
+"formula": "13 + 14,5 = 27,5",
+"pbtc": "27,5",
+"img": "ORC12.png"
+},
+{
+"code": "ORR1",
+"familyKey": "ORR",
+"family": "Ônibus Rodoviário com Reboque",
+"formula": "7 + 11 + 11 + 11 = 40",
+"pbtc": "40",
+"img": "ORR1.png"
+},
+{
+"code": "ORR2",
+"familyKey": "ORR",
+"family": "Ônibus Rodoviário com Reboque",
+"formula": "7 + 14,5 + 11 + 11 = 43,5",
+"pbtc": "43,5",
+"img": "ORR2.png"
+},
+{
+"code": "ORR3",
+"familyKey": "ORR",
+"family": "Ônibus Rodoviário com Reboque",
+"formula": "7 + 14,5 + 11 + 11 = 43,5",
+"pbtc": "43,5",
+"img": "ORR3.png"
+},
+{
+"code": "ORR4",
+"familyKey": "ORR",
+"family": "Ônibus Rodoviário com Reboque",
+"formula": "7 + 11 + 7 + 11 = 36",
+"pbtc": "36",
+"img": "ORR4.png"
+},
+{
+"code": "ORR5",
+"familyKey": "ORR",
+"family": "Ônibus Rodoviário com Reboque",
+"formula": "7 + 14,5 + 7 + 11 = 39,5",
+"pbtc": "39,5",
+"img": "ORR5.png"
+},
+{
+"code": "ORR6",
+"familyKey": "ORR",
+"family": "Ônibus Rodoviário com Reboque",
+"formula": "7 + 14,5 + 7 + 11 = 39,5",
+"pbtc": "39,5",
+"img": "ORR6.png"
+}
+]
