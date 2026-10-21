@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import portaria from "@/data/portaria.json";
+import { PORTARIA as portaria } from "@/lib/portaria";
 import { useMemo, useState } from "react";
 import { AlertTriangle } from "lucide-react";
 import data from "@/data/dexpara.json";
