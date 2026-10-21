@@ -36,15 +36,15 @@
 "familyKey": "C",
 "family": "Caminhão",
 "formula": "6 + 13,5 = 19,5",
-"pbtc": "14,00",
+"pbtc": "19,5",
 "img": "/portaria/C5.png"
 },
 {
 "code": "C6",
 "familyKey": "C",
 "family": "Caminhão",
-"formula": "12 + 10 22",
-"pbtc": "12 + 10 22",
+"formula": "12 + 10 + 22 = 44",
+"pbtc": "44",
 "img": "/portaria/C6.png"
 },
 {
@@ -308,7 +308,7 @@
 "familyKey": "CR",
 "family": "Caminhão + Reboque",
 "formula": "6 + 10 + 10 + 10 = 36",
-"pbtc": "19,80",
+"pbtc": "36",
 "img": "/portaria/CR1.png"
 },
 {
@@ -500,7 +500,7 @@
 "familyKey": "CTSS",
 "family": "Caminhão Trator + 2 Semirreboques",
 "formula": "6 + 17 + 17 + 10 = 50",
-"pbtc": "19,80",
+"pbtc": "50",
 "img": "/portaria/CTSS5.png"
 },
 {
@@ -716,7 +716,7 @@
 "familyKey": "CRR",
 "family": "Caminhão + 2 Reboques (necessita de AET)",
 "formula": "6 + 17 + 10 + 10 + 10 + 17 = 70",
-"pbtc": "30,00",
+"pbtc": "70",
 "img": "/portaria/CRR2p.png"
 },
 {
@@ -908,7 +908,7 @@
 "familyKey": "CTSRr",
 "family": "Caminhão Trator + Semirreboque + Reboque com rala (necessita de AET)",
 "formula": "6 + 17 + 17 + 17 + 25,5 = 82,5",
-"pbtc": "30,00",
+"pbtc": "82,5",
 "img": "/portaria/CTSRr2p.png"
 },
 {
@@ -940,7 +940,7 @@
 "familyKey": "OU",
 "family": "Ônibus Urbano",
 "formula": "6 + 17 = 23",
-"pbtc": "14,00",
+"pbtc": "23",
 "img": "/portaria/OU3.png"
 },
 {
@@ -1324,7 +1324,7 @@
 "familyKey": "OUB",
 "family": "Ônibus Urbano Bi-Articulado (necessita de AET)",
 "formula": "6 + 13,5 + 10 + 10 = 39,5",
-"pbtc": "30,00",
+"pbtc": "39,5",
 "img": "/portaria/OUB4p.png"
 },
 {
@@ -1388,7 +1388,7 @@
 "familyKey": "ORC",
 "family": "Ônibus Rodoviário Convencional",
 "formula": "7 + 14,5 = 21,5",
-"pbtc": "14,00",
+"pbtc": "21,5",
 "img": "/portaria/ORC5.png"
 },
 {
@@ -1436,7 +1436,7 @@
 "familyKey": "ORC",
 "family": "Ônibus Rodoviário Convencional",
 "formula": "13 + 14,5 = 27,5",
-"pbtc": "15,00",
+"pbtc": "27,5",
 "img": "/portaria/ORC11.png"
 },
 {
