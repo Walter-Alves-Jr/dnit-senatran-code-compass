@@ -29,7 +29,7 @@ const axlesFor = (t: number) => (t === 25.5 ? 3 : t === 12 || t === 13 || t === 
 // groups per unit, in order
 function build(code: string, weights: number[], perUnit: number[]): SenatranCode {
   const fam = code.match(/^[A-Z]+/)![0];
-  const f = FAMILIES[fam];
+  const f = FAMILIES[fam]!;
   const aet = code.endsWith("+");
   let i = 0;
   const units: Unit[] = perUnit.map((n, u) => {

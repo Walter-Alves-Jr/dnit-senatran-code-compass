@@ -113,7 +113,7 @@ function Index() {
             )}
 
             <div className="grid gap-4 border-t-2 border-secondary bg-muted p-6 md:grid-cols-3">
-              <Info label="Implemento" value={imp ? implementsMap[imp] : "—"} />
+              <Info label="Implemento" value={(imp && implementsMap[imp]) || "—"} />
               <Info label="Código SAP" value={sap?.[2] ?? "—"} big />
               <Info label="Descrição SAP" value={sap?.[3] ?? "—"} />
             </div>
