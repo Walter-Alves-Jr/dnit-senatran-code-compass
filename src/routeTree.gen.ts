@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as PortariaRouteImport } from './routes/portaria'
+import { Route as SistemaRouteImport } from './routes/sistema'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -22,31 +23,40 @@ const PortariaRoute = PortariaRouteImport.update({
   path: '/portaria',
   getParentRoute: () => rootRouteImport,
 } as any)
+const SistemaRoute = SistemaRouteImport.update({
+  id: '/sistema',
+  path: '/sistema',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/portaria': typeof PortariaRoute
+  '/sistema': typeof SistemaRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/portaria': typeof PortariaRoute
+  '/sistema': typeof SistemaRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/portaria': typeof PortariaRoute
+  '/sistema': typeof SistemaRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/portaria'
+  fullPaths: '/' | '/portaria' | '/sistema'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/portaria'
-  id: '__root__' | '/' | '/portaria'
+  to: '/' | '/portaria' | '/sistema'
+  id: '__root__' | '/' | '/portaria' | '/sistema'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   PortariaRoute: typeof PortariaRoute
+  SistemaRoute: typeof SistemaRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -65,12 +75,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PortariaRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/sistema': {
+      id: '/sistema'
+      path: '/sistema'
+      fullPath: '/sistema'
+      preLoaderRoute: typeof SistemaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   PortariaRoute: PortariaRoute,
+  SistemaRoute: SistemaRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

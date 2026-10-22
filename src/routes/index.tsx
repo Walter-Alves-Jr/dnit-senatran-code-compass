@@ -51,6 +51,7 @@ function Index() {
         <div className="mx-auto max-w-6xl px-6 py-10">
           <nav className="mb-6 flex gap-4 font-display text-sm font-bold uppercase tracking-wider">
             <Link to="/" className="text-primary">De-para</Link>
+            <Link to="/sistema" className="opacity-70 hover:opacity-100">Veículos do sistema</Link>
             <Link to="/portaria" className="opacity-70 hover:opacity-100">Catálogo da portaria</Link>
           </nav>
           <p className="font-display text-sm font-bold uppercase tracking-[0.3em] text-primary">Portaria SENATRAN nº 268/2022</p>
