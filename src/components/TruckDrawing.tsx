@@ -8,7 +8,11 @@ const Y = 110; // ground line - wheel radius
 
 function unitLength(u: Unit) {
   const axles = u.groups.reduce((a, g) => a + g.axles, 0);
-  const base = u.type === "trator" ? 150 : u.type === "caminhao" ? 220 : 260;
+  if (u.type === "trator") {
+    const rear = u.groups.slice(1).reduce((a, g) => a + g.axles, 0);
+    return 56 + 50 + Math.max(0, rear - 1) * GAP + (u.groups.length > 2 ? GROUP_GAP : 0);
+  }
+  const base = u.type === "caminhao" ? 220 : 260;
   return Math.max(base, axles * GAP + (u.groups.length - 1) * GROUP_GAP + 80);
 }
 
@@ -63,7 +67,7 @@ export function TruckDrawing({ code }: { code: SenatranCode }) {
           <Wheels x0={x0} x1={x1} groups={u.groups} />
         </g>,
       );
-      x = u.type === "trator" ? x1 - 50 : x1 + 18;
+      x = u.type === "trator" ? x0 + 62 : x1 + 18;
     } else {
       const semi = u.type === "semirreboque";
       parts.push(
