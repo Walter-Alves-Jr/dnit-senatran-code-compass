@@ -1,5 +1,7 @@
 {
-  "name": "tanstack_start_ts",
+  "name": "dnit-senatran-code-compass",
+  "description": "Consulta visual do de-para entre tipos de veiculo da operacao e as classificacoes homologadas pela Portaria SENATRAN 268/2022",
+  "license": "MIT",
   "private": true,
   "sideEffects": false,
   "type": "module",
