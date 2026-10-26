@@ -14,7 +14,7 @@ export function parseCsv(text: string): Table {
     if (q) {
       if (ch === '"') { if (text[i + 1] === '"') { cell += '"'; i++; } else q = false; }
       else cell += ch;
-    } else if (ch === '"') q = true;
+    } else if (ch === '"' && cell === "") q = true;
     else if (ch === sep) { row.push(cell); cell = ""; }
     else if (ch === "\n" || ch === "\r") {
       if (ch === "\r" && text[i + 1] === "\n") i++;
