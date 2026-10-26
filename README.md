@@ -82,6 +82,49 @@ cotação ou documento fiscal.
 Composições que necessitam de AET (Autorização Especial de Trânsito) aparecem marcadas
 na tela.
 
+Projeto independente: **não é ferramenta oficial do DNIT nem da SENATRAN**. A licença
+MIT cobre o código; as imagens e o texto da portaria são material público do governo
+federal e seguem os termos da fonte original, não a licença MIT.
+
+## Status de validação
+
+| Status | Quando aparece |
+|---|---|
+| Sugestão do sistema | Tipo de equipamento e eixos batem com a portaria |
+| Pendente de validação | Código ajustado por eixos e PBT dentro da mesma família |
+| Divergência identificada | Só existe um código próximo, ou marcado manualmente |
+| Sem correspondência | Nenhum código se aplica com os dados disponíveis |
+| Confirmado manualmente | Uma pessoa conferiu e confirmou na tela |
+| Validado contra a fonte oficial | Reservado; nenhum registro tem ainda (falta a lista oficial DNIT) |
+
+Revisões e importações ficam no `localStorage` do navegador (sem servidor). Exporte o
+Excel para guardar ou compartilhar.
+
+## Importação e exportação
+
+- **Importar** (página Veículos do sistema): CSV (`;`, `,` ou tab, detectado) ou XLSX.
+  Você indica qual coluna é código ERP, descrição, eixos, peso e tipo. Há prévia, lista
+  de linhas com erro e bloqueio de código ERP repetido. Sem o tipo de equipamento, o
+  código é só candidato por eixos e peso (status Divergência).
+- **Exportar**: XLSX (filtros, 1ª linha congelada, aba Resumo) ou CSV UTF-8 com
+  separador `;` ou `,`. Filtros: todos, validados, pendências, divergências — e o
+  filtro de texto da tabela. Textos que começam com `=`, `+`, `-` ou `@` recebem `'`
+  para não virar fórmula.
+
+## Testes
+
+```bash
+bun run test   # ou: bunx vitest run
+```
+
+Cobrem os status (nada automático vira validado), escape do CSV e validação da importação.
+
+## Limitações conhecidas
+
+- Os códigos não foram conferidos contra uma lista oficial DNIT ⇄ SENATRAN.
+- Seis tipos de veículo da planilha B3/SAP não têm correspondência exata na portaria.
+- O catálogo segue o anexo original da Portaria 268/2022; alterações posteriores não foram incorporadas.
+
 ## Contribuindo
 
 Veja [CONTRIBUTING.md](CONTRIBUTING.md).
