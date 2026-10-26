@@ -1,20 +1,21 @@
 # Roadmap
 
 ## Concluído
-- [x] Página de de-para DNIT ⇄ SENATRAN com desenho da composição e código SAP
-- [x] Catálogo completo da Portaria SENATRAN 268/2022 (187 composições, com imagens)
-- [x] Página "Veículos do sistema" com o de-para dos 101 veículos do ERP
+- [x] De-para DNIT ⇄ SENATRAN com desenho da composição e código SAP
+- [x] Catálogo da Portaria SENATRAN 268/2022 (187 composições, com imagens oficiais)
+- [x] Página "Veículos do sistema" (101 veículos do ERP)
 - [x] Desenho do veículo ajustado (cavalo junto da carreta)
-- [x] Licença MIT, README, CONTRIBUTING e ajustes de .gitignore / package.json
-- [x] Repositório conectado ao GitHub e publicado como público
-      (github.com/Walter-Alves-Jr/dnit-senatran-code-compass)
+- [x] Licença MIT, README, CONTRIBUTING; repositório público no GitHub
+- [x] Status de validação separando sugestão, pendente, divergência, confirmado e validado
+- [x] Revisão manual por veículo (confirmar, trocar código, divergência, observação, data)
+- [x] Exportação XLSX e CSV com filtros e contagem (testada no navegador)
+- [x] Importação CSV/XLSX com mapeamento de colunas, prévia, erros e duplicados (testada no navegador)
+- [x] Testes automáticos das regras
 
-## Pendente
-- [ ] Descrição e topics do repositório no GitHub — feito pelo usuário na página do repo
-- [ ] Decidir se o roadmap.md continua no repositório público ou é removido
-- [ ] Conferir os códigos SENATRAN sugeridos contra a lista oficial (hoje são sugestão)
+## Pendente de validação
+- [ ] Conferir os códigos sugeridos contra a lista oficial DNIT (não fornecida ainda)
+- [ ] Seis tipos sem correspondência exata na portaria (4, 27–28, 30, 33, 35)
 
-## Próximas melhorias (documento "Evolução")
-- [ ] Exportar resultado em Excel (XLSX) e CSV
-- [ ] Importar a lista de veículos do ERP
-- [ ] Marcar e revisar registros que precisam de conferência
+## Planejado
+- [ ] Incorporar alterações posteriores à Portaria 268/2022, se houver
+- [ ] Descrição e topics do repositório no GitHub (feito pelo usuário)
