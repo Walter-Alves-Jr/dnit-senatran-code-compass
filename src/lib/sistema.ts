@@ -27,6 +27,14 @@ export type Match = { item?: PortariaItem; quality: "exata" | "ajustada" | "apro
 export function matchVeiculo(v: SistemaVeiculo): Match {
   const sug = VEHICLE_TO_SENATRAN[v.tipo_equipamento];
   const base = sug ? PORTARIA.find((p) => p.code === sug.code) : undefined;
+  if (!sug && !v.tipo_equipamento) {
+    // Importado sem tipo de equipamento: só eixos e peso — nunca passa de "aproximada".
+    const pool = PORTARIA.filter((p) => !p.familyKey.startsWith("O") && portariaAxles(p) === v.eixos);
+    if (!pool.length) return { quality: "sem", note: `Nenhum código da portaria com ${v.eixos} eixos.` };
+    if (!(v.peso_bruto > 0)) return { item: pool[0], quality: "aproximada", note: `Sem tipo e sem peso: primeiro candidato com ${v.eixos} eixos (${pool.length} possíveis).` };
+    const best = pool.reduce((a, b) => (Math.abs(pbtcNum(b) - v.peso_bruto) < Math.abs(pbtcNum(a) - v.peso_bruto) ? b : a));
+    return { item: best, quality: "aproximada", note: `Sem tipo de equipamento: candidato por ${v.eixos} eixos e PBT mais próximo (${pool.length} possíveis).` };
+  }
   if (!base) return { quality: "sem", note: "Tipo de equipamento sem classificação de carga na portaria." };
   if (portariaAxles(base) === v.eixos)
     return { item: base, quality: sug!.approx ? "aproximada" : "exata", note: sug!.approx ? "Código mais próximo; sem correspondência exata." : "Eixos e tipo conferem com a portaria." };
