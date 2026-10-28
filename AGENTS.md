@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+- Review state and imported ERP rows live in browser localStorage (no backend) — keeps the open-source app static and self-hostable.
+- Auto-matching must never emit "validado"/"confirmado" status — only manual review or an official list may confirm codes.
